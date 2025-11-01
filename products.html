@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANTX | Products</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <nav class="shadow">
+        <div class="flex-container">
+            <div class="column-md-30">
+                <!-- logo -->
+                <a href="index.html" class="logo">
+                    <span class="badge">San</span> TX
+                </a>
+            </div>
+            <div class="column-md-70">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li>
+                        <!-- https://feathericons.com -->
+                        <a href="#">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="cart">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>2</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <header class="banner fade-in" id="products-banner">
+        <div class="p-1">
+            <h1 class="mb-1">Products</h1>
+            <p>Shop SANTX gamming accessories from wide range of products</p>
+        </div>
+    </header>
+
+
+    <main  class="fade-in">
+
+
+        <section class="bg-grey py-2 mb-3">
+            <div class="container">
+
+                <header class="mb-1">
+                    <div class="flex-container p-1">
+                        <div class="col-md-50 column-lg-70 mb-1">
+                            <h2><span class="badge">All</span> Products</h2>
+                        </div>
+                        <div class="column-md-50 column-lg-30 mb-1">
+                            <select name="product_filter" id="product_filter" class="form-control shadow">
+                                <option value="" selected disabled>Sort By...</option>
+                                <option value="1">Sort By Popularity</option>
+                                <option value="2">Sort By Latest</option>
+                                <option value="3">Sort By Price (Low to High)</option>
+                                <option value="4">Sort By Category</option>
+                            </select>
+                        </div>
+                </header>
+
+
+                <div class="flex-container">
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/mouse-1.jpg" alt="G502 X GAMING MOUSE"
+                                    class="img-fluid mb-2">
+                            </a>
+                            <h3>G502 X GAMING MOUSE</h3>
+                            <p class="mb-1">$99.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/keyboard-3.jpg" alt="X100 HUNTSMAN V2" class="img-fluid mb-2">
+                            </a>
+                            <h3>X100 HUNTSMAN V2</h3>
+                            <p class="mb-1"><del>$300.00</del> $189.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/audio-3.jpg" alt="Barracuda X - Mercury" class="img-fluid mb-2">
+                            </a>
+                            <h3>Barracuda X - Mercury</h3>
+                            <p class="mb-1">$138.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/keyboard-1.jpg" alt="Huntsman V2 Tenkeyless" class="img-fluid mb-2">
+                            </a>
+                            <h3>Huntsman V2 Tenkeyless</h3>
+                            <p class="mb-1"><del>$299.00</del> $240.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/mouse-3.jpg" alt="G502 X PLUS GAMING MOUSE" class="img-fluid mb-2">
+                            </a>
+                            <h3>G502 X PLUS GAMING MOUSE</h3>
+                            <p class="mb-1"><del>$199.00</del> $179.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+
+
+
+                    <div class="column-md-50 column-lg-33">
+                        <article class="p-1 shadow mb-2">
+                            <!-- https://unsplash.com -->
+                            <a href="product.html">
+                                <img src="img/audio-1.jpg" alt="BLACKSHARK V2 PRO" class="img-fluid mb-2">
+                            </a>
+                            <h3>BLACKSHARK V2 PRO</h3>
+                            <p class="mb-1">$250.00</p>
+                            <a href="#" class="btn w-100">Add to Cart</a>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+        <div class="mb-3 text-center">
+            <button href="#" class="btn" id="load-more">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="1 4 1 10 7 10"></polyline>
+                    <polyline points="23 20 23 14 17 14"></polyline>
+                    <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+                </svg>
+                <span>Load More</span>
+            </button>
+        </div>
+
+
+
+
+        <!-- banner -->
+        <section class="banner fade-in" id="promo-banner">
+            <div>
+                <h1 class="mb-1">30% OFF</h1>
+                <p>Enjoy 30% OFF on Gaming Headphones, Mouses, Keyboards and so much more...</p>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="bg-grey">
+
+        <a href="#" class="logo">
+            <span class="badge">San</span> TX
+        </a>
+
+        <p class="mb-2">&copy; 2023, SANTX</p>
+
+        <ul class="mb-2">
+            <li>
+                <a href="#">
+                    <!-- https://feathericons.com -->
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- https://feathericons.com -->
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- https://feathericons.com -->
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="index.html#about">About</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
