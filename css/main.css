@@ -119,7 +119,9 @@ ul a:hover {
 
 @media screen and (max-width: 568px) {
     nav ul {
-        flex-direction: column;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-top: 1rem;
     }
 
     nav ul li {
